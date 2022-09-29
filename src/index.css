@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont,"Segoe UI", "Roboto", "Oxygen", 
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f1f5f8 ;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.fab {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 25px;
+    position: fixed;
+    right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    transition: 0.3s;
+}
+
+.fab:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 2);
+}
+
+.sidebar { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img-top{
+    display: block;
+    margin:auto;
+    width: 250px;
+    height: 250px;
+}
+
+.boton{
+    background-color: #4CAF70; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton2{
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-color: black;
+}
+
+.boton3{
+    background-color: gray;
+    border:rgba(0, 0, 0, 2);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.mb-3{
+    margin: auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.editar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-variant: small-caps;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    border-color: black;
+    border-width: 1px;
+}
+
+.form-select{
+    border-color: black;
+    border-width: 1px;
+}
+
+.card-text{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
